@@ -36,11 +36,7 @@ Page({
     src6: 'http://music.163.com/song/media/outer/url?id=65766.mp3',
   },
   fanhui:function(){
-<<<<<<< HEAD
-    wx.navigateTo({
-=======
     wx.redirectTo({
->>>>>>> b543bbe (最终版本)
       url: '/pages/choose/choose',
     })
   },

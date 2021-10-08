@@ -1,13 +1,7 @@
 <view class="bg">
   <image class="background" src="https://s3.bmp.ovh/imgs/2021/10/4dc11cfaed076e85.jpg" mode="aspectFill"></image>
-<<<<<<< HEAD
-  <image class="buttonImage" src="https://s3.bmp.ovh/imgs/2021/10/9206d2cb93cd8554.gif"></image>
-</view>
-<button  bindtap="offlineProceed" class="button" plain></button>
-=======
 </view>
 <button  bindtap="offlineProceed" class="button"  plain></button>
->>>>>>> b543bbe (最终版本)
 <button  bindtap="fanhui" class="back" style="color:blanchedalmond;font-size:0.6cm;" size="mini" plain>⬅返回</button>
 <!-- 添加骰子动图 -->
 <view class="dice">

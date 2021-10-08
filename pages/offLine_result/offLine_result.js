@@ -10,20 +10,12 @@ Page({
       result:""
   },
   zaiLaiYiCi:function(){
-<<<<<<< HEAD
-    wx.navigateTo({
-=======
     wx.redirectTo({
->>>>>>> b543bbe (最终版本)
       url: '/pages/offLine_start/offLine_start',
     })
   },
   fanhui:function(){
-<<<<<<< HEAD
-    wx.navigateTo({
-=======
     wx.redirectTo({
->>>>>>> b543bbe (最终版本)
       url: '/pages/choose/choose',
     })
   },

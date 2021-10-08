@@ -28,11 +28,7 @@ Page({
     })
   },
   fanhui:function(){
-<<<<<<< HEAD
-    wx.navigateTo({
-=======
     wx.redirectTo({
->>>>>>> b543bbe (最终版本)
       url: '/pages/multi_prestart/multi_prestart',
     })
   },

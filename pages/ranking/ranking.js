@@ -8,14 +8,11 @@ Page({
     Sresult:new Array()
   },
 
-<<<<<<< HEAD
-=======
   fanhui:function(){
     wx.redirectTo({
       url: '/pages/choose/choose',
     })
   },
->>>>>>> b543bbe (最终版本)
   /**
    * 生命周期函数--监听页面加载
    */

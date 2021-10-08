@@ -10,11 +10,7 @@ Page({
   },
   goToMulti:function(){
     var SArray = JSON.stringify(this.data.Sresult);
-<<<<<<< HEAD
-    wx.navigateTo({
-=======
     wx.redirectTo({
->>>>>>> b543bbe (最终版本)
       url: '/pages/multi_start/multi_start?number='+this.data.number+'&Sresult='+SArray
     })
 
@@ -26,11 +22,7 @@ Page({
     })
   },
   fanhui:function(){
-<<<<<<< HEAD
-    wx.navigateTo({
-=======
     wx.redirectTo({
->>>>>>> b543bbe (最终版本)
       url: '/pages/choose/choose',
     })
   },

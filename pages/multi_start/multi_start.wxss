@@ -11,11 +11,8 @@ page{
 .button{
   border-radius:45%;
   position:fixed;
-<<<<<<< HEAD
-=======
   background:url("https://z3.ax1x.com/2021/10/08/5iSRxI.gif") ;
   background-size: cover;
->>>>>>> b543bbe (最终版本)
   height: 16%;
   width: 48%;
   left:200rpx;

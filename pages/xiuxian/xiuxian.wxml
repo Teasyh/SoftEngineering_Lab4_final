@@ -1,10 +1,6 @@
 <!--pages/setting/setting.wxml-->
 <view class="bg">
-<<<<<<< HEAD
-  <image class="background" src="https://s3.bmp.ovh/imgs/2021/10/4dc11cfaed076e85.jpg" mode="aspectFill"></image>
-=======
   <image class="background" src="https://img1.baidu.com/it/u=1423685618,3856178163&fm=26&fmt=auto" mode="aspectFill"></image>
->>>>>>> b543bbe (最终版本)
 </view>
 <audio poster="{{poster1}}" name="{{name1}}" author="{{author1}}" src="{{src1}}" id="myAudio" controls loop></audio>
 <audio poster="{{poster2}}" name="{{name2}}" author="{{author2}}" src="{{src2}}" id="myAudio" controls loop></audio>

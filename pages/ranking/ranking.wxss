@@ -7,8 +7,6 @@ page{
     width: 100%;
     background-size: 100% 100%;
     z-index: -1;
-<<<<<<< HEAD
-=======
   }
   .back{
     height: 80rpx;
@@ -16,5 +14,4 @@ page{
     top:1080rpx;
     left: 0rpx;
     text-align: left;
->>>>>>> b543bbe (最终版本)
   }
