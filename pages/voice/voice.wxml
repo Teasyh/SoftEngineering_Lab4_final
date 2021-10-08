@@ -1,0 +1,12 @@
+<view class="bg">
+  <image class="background" src="https://s3.bmp.ovh/imgs/2021/10/4dc11cfaed076e85.jpg" mode="aspectFill"></image>
+</view>
+<button  bindtap="fanhui" class="back" style="color:blanchedalmond;font-size:0.6cm;" size="mini" plain>⬅返回</button>
+<!-- 添加开启背景音乐设置 -->
+<view class='container'>
+      <view class="btn-area">
+          <text wx:if="{{switchStatus}}">开启音效</text>
+          <text wx:else>关闭音效</text>
+          <switch bindchange="switchChange" checked />
+           </view>
+</view>

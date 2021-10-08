@@ -1,0 +1,33 @@
+{
+  "pages":[
+    
+    "pages/home/home",
+    "pages/choose/choose",
+    "pages/multi_prestart/multi_prestart",
+    "pages/multi_start/multi_start",
+    "pages/multi_proceed/multi_proceed",
+    "pages/multi_end/multi_end",
+    "pages/ranking/ranking",
+
+
+    "pages/offLine_start/offLine_start",
+    "pages/offLine_proceed/offLine_proceed",
+    "pages/offLine_result/offLine_result",
+
+    "pages/regular/regular",
+    "pages/xiuxian/xiuxian",
+    "pages/voice/voice",
+    
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "FZ欢乐中秋博饼",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+
+  
+}

@@ -1,0 +1,4 @@
+<view class="bg">
+  <image class="background" src="https://s3.bmp.ovh/imgs/2021/10/c2f744838752fcc6.jpg" mode="aspectFill"></image>
+</view>
+<button  bindtap="fanhui" class="back" style="color:rgba(218, 99, 99, 0.849);font-size:0.6cm;" size="mini" plain>⬅返回</button>

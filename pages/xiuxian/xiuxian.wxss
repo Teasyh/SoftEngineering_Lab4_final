@@ -1,0 +1,18 @@
+/* pages/setting/setting.wxss */
+page{
+  height :100%
+}
+.background{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  z-index: -1;
+}
+.back{
+  height: 80rpx;
+  width: 30rpx;
+  top:450rpx;
+  left: 0rpx;
+  text-align: left;
+}

@@ -1,0 +1,20 @@
+<view class="bg">
+  <image class="background" src="https://s3.bmp.ovh/imgs/2021/10/4dc11cfaed076e85.jpg" mode="aspectFill"></image>
+<<<<<<< HEAD
+  <image class="buttonImage" src="https://s3.bmp.ovh/imgs/2021/10/9206d2cb93cd8554.gif"></image>
+</view>
+<button  bindtap="offlineProceed" class="button" plain></button>
+=======
+</view>
+<button  bindtap="offlineProceed" class="button"  plain></button>
+>>>>>>> b543bbe (最终版本)
+<button  bindtap="fanhui" class="back" style="color:blanchedalmond;font-size:0.6cm;" size="mini" plain>⬅返回</button>
+<!-- 添加骰子动图 -->
+<view class="dice">
+  <image class="dice1" src="https://ftp.bmp.ovh/imgs/2021/02/6cf5a6c10df61d7c.gif" ></image> 
+  <image class="dice2" src="https://ftp.bmp.ovh/imgs/2021/02/eec033a94853c439.gif" ></image> 
+  <image class="dice3" src="https://ftp.bmp.ovh/imgs/2021/02/d25ef570b5e5cd57.gif" ></image> 
+  <image class="dice4" src="https://ftp.bmp.ovh/imgs/2021/02/e47adf9c3a4490d7.gif" ></image> 
+  <image class="dice5" src="https://ftp.bmp.ovh/imgs/2021/02/4edcf047be56a99a.gif" ></image> 
+  <image class="dice6" src="https://ftp.bmp.ovh/imgs/2021/02/7bca7a7757dc3865.gif" ></image> 
+</view>

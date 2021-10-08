@@ -1,0 +1,22 @@
+<view class="bg">
+<<<<<<< HEAD
+  <image class="background" src="https://s3.bmp.ovh/imgs/2021/10/4dc11cfaed076e85.jpg" mode="aspectFill"></image>
+</view>
+<view style="position:relative;top:0rpx;color:red;border-radius:15%;width:550rpx ;height:150rpx;left:280rpx;font-size:0.8cm;font-style:initial;">奖励榜</view>
+<block wx:for="{{Sresult}}" data-item="item" wx:for-index="idx" >
+  <view style="position:relative;top:10rpx;background:white;color:red;border-radius:0%;width:700rpx ;height:80rpx;left:20rpx;font-size:0.6cm;font-style:initial;">
+    {{idx+1}}号玩家获得的奖项是：{{item}}!
+  </view>
+</block>
+=======
+  <image class="background" src="http://img2.baidu.com/it/u=458007357,2210159312&fm=253&app=138&f=JPEG?w=334&h=500" mode="aspectFill"></image>
+</view>
+<view style="position:relative;top:0rpx;color:blanchedalmond;border-radius:15%;width:550rpx ;height:150rpx;left:280rpx;font-size:0.8cm;font-style:initial;">奖励榜</view>
+<block wx:for="{{Sresult}}" data-item="item" wx:for-index="idx" >
+  <view style="position:relative;top:10rpx;background:blanchedalmond;color:red;border-radius:0%;width:700rpx ;height:80rpx;left:20rpx;font-size:0.6cm;font-style:initial;">
+    {{idx+1}}号玩家获得的奖项是：{{item}}!
+  </view>
+</block>
+<button  bindtap="fanhui" class="back" style="color:blanchedalmond;font-size:0.6cm;" size="mini" plain>⬅返回</button>
+>>>>>>> b543bbe (最终版本)
+

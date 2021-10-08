@@ -1,0 +1,81 @@
+page{
+  height :100%
+}
+.background{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  z-index: -1;
+}
+.button{
+  border-radius:45%;
+  position:fixed;
+<<<<<<< HEAD
+=======
+  background:url("https://z3.ax1x.com/2021/10/08/5iSRxI.gif") ;
+  background-size: cover;
+>>>>>>> b543bbe (最终版本)
+  height: 16%;
+  width: 48%;
+  left:200rpx;
+  top:900rpx;
+}
+.buttonImage{
+  border-radius:45%;
+  position:fixed;
+  height: 16%;
+  width: 48%;
+  left:200rpx;
+  top:900rpx;
+}
+.back{
+  height: 80rpx;
+  width: 30rpx;
+  top:1300rpx;
+  left: 0rpx;
+  text-align: left;
+}
+/* 设计骰子样式 */
+.dice1{
+  position: absolute;
+  height: 100rpx;
+  width: 100rpx;
+  left:200rpx;
+  top:180rpx;
+}
+.dice2{
+  position: absolute;
+  height: 100rpx;
+  width: 100rpx;
+  left:325rpx;
+  top:180rpx;
+}
+.dice3{
+  position: absolute;
+  height: 100rpx;
+  width: 100rpx;
+  left:450rpx;
+  top:180rpx;
+}
+.dice4{
+  position: absolute;
+  height: 100rpx;
+  width: 100rpx;
+  left:200rpx;
+  top:340rpx;
+}
+.dice5{
+  position: absolute;
+  height: 100rpx;
+  width: 100rpx;
+  left:325rpx;
+  top:340rpx;
+}
+.dice6{
+  position: absolute;
+  height: 100rpx;
+  width: 100rpx;
+  left:450rpx;
+  top:340rpx;
+}

@@ -1,0 +1,19 @@
+
+<view class="bg">
+  <image class="background" src="https://s3.bmp.ovh/imgs/2021/10/4dc11cfaed076e85.jpg" mode="aspectFill"></image>
+</view>
+<swiper autoplay circular indicator-dots interval="1200">
+  <swiper-item><image src="https://s3.bmp.ovh/imgs/2021/10/3fabc1fa05913f2d.jpg"></image></swiper-item>
+  <swiper-item><image src="https://s3.bmp.ovh/imgs/2021/10/7a45da78596f698d.jpg"></image></swiper-item>
+<<<<<<< HEAD
+=======
+  <swiper-item><image src="https://img0.baidu.com/it/u=2575885876,2346021782&fm=26&fmt=auto"></image></swiper-item>
+  <swiper-item><image src="https://img2.baidu.com/it/u=3159234427,1008065745&fm=26&fmt=auto"></image></swiper-item>
+>>>>>>> b543bbe (最终版本)
+</swiper>
+<button size="default" plain="true"
+        bindtap="kaiShiBoBing"
+        style="position:relative;top:62rpx;color:black;border-radius:50%;width:480rpx ;height:480rpx;font-size:0.8cm;font-style:normal;line-height:730%;" 
+        >开始博饼
+</button>
+

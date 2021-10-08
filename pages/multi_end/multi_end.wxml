@@ -1,0 +1,80 @@
+<view class="bg">
+<<<<<<< HEAD
+  <image class="background" src="https://s3.bmp.ovh/imgs/2021/10/4dc11cfaed076e85.jpg" mode="aspectFill"></image>
+  <image class="buttonImage" src=""></image>
+</view>
+
+<view>
+<!-- 判断是否结束跳转不同页面 -->
+  <button  wx:if="{{cmp1==cmp2}}"  bindtap="jieshu" class="button"  plain></button>
+  <button  wx:elif="{{cmp1!=cmp2}}"  bindtap="zaiLaiYiCi" class="button"  plain></button>
+=======
+  <image class="background" src="http://img2.baidu.com/it/u=458007357,2210159312&fm=253&app=138&f=JPEG?w=334&h=500" mode="aspectFill"></image>
+  
+</view>
+
+
+<view>
+<!-- 判断是否结束跳转不同页面 -->
+  <button  wx:if="{{cmp1==cmp2}}"  bindtap="jieshu" class="button" style="color:blanchedalmond;font-size:0.6cm;line-height: 350%;" plain>查看奖励榜</button>
+  <button  wx:elif="{{cmp1!=cmp2}}"  bindtap="zaiLaiYiCi" class="button"  style="color:blanchedalmond;font-size:0.6cm;line-height: 350%;" plain>下一个</button>
+>>>>>>> b543bbe (最终版本)
+</view>
+<button  bindtap="fanhui" class="back" style="color:blanchedalmond;font-size:0.6cm;" size="mini" plain>⬅返回</button>
+
+<view>
+  <image wx:if="{{a==1}}" src="https://ftp.bmp.ovh/imgs/2021/02/6cf5a6c10df61d7c.gif" class="dice1"></image> 
+  <image wx:elif="{{a==2}}" src="https://ftp.bmp.ovh/imgs/2021/02/eec033a94853c439.gif" class="dice1"></image> 
+  <image wx:elif="{{a==3}}" src="https://ftp.bmp.ovh/imgs/2021/02/d25ef570b5e5cd57.gif" class="dice1"></image> 
+  <image wx:elif="{{a==4}}" src="https://ftp.bmp.ovh/imgs/2021/02/e47adf9c3a4490d7.gif" class="dice1"></image> 
+  <image wx:elif="{{a==5}}" src="https://ftp.bmp.ovh/imgs/2021/02/4edcf047be56a99a.gif" class="dice1"></image> 
+  <image wx:elif="{{a==6}}" src="https://ftp.bmp.ovh/imgs/2021/02/7bca7a7757dc3865.gif" class="dice1"></image> 
+</view>
+
+<view>
+  <image wx:if="{{b==1}}" src="https://ftp.bmp.ovh/imgs/2021/02/6cf5a6c10df61d7c.gif" class="dice2"></image> 
+  <image wx:elif="{{b==2}}" src="https://ftp.bmp.ovh/imgs/2021/02/eec033a94853c439.gif" class="dice2"></image> 
+  <image wx:elif="{{b==3}}" src="https://ftp.bmp.ovh/imgs/2021/02/d25ef570b5e5cd57.gif" class="dice2"></image> 
+  <image wx:elif="{{b==4}}" src="https://ftp.bmp.ovh/imgs/2021/02/e47adf9c3a4490d7.gif" class="dice2"></image> 
+  <image wx:elif="{{b==5}}" src="https://ftp.bmp.ovh/imgs/2021/02/4edcf047be56a99a.gif" class="dice2"></image> 
+  <image wx:elif="{{b==6}}" src="https://ftp.bmp.ovh/imgs/2021/02/7bca7a7757dc3865.gif" class="dice2"></image> 
+</view>
+
+<view>
+  <image wx:if="{{c==1}}" src="https://ftp.bmp.ovh/imgs/2021/02/6cf5a6c10df61d7c.gif" class="dice3"></image> 
+  <image wx:elif="{{c==2}}" src="https://ftp.bmp.ovh/imgs/2021/02/eec033a94853c439.gif" class="dice3"></image> 
+  <image wx:elif="{{c==3}}" src="https://ftp.bmp.ovh/imgs/2021/02/d25ef570b5e5cd57.gif" class="dice3"></image> 
+  <image wx:elif="{{c==4}}" src="https://ftp.bmp.ovh/imgs/2021/02/e47adf9c3a4490d7.gif" class="dice3"></image> 
+  <image wx:elif="{{c==5}}" src="https://ftp.bmp.ovh/imgs/2021/02/4edcf047be56a99a.gif" class="dice3"></image> 
+  <image wx:elif="{{c==6}}" src="https://ftp.bmp.ovh/imgs/2021/02/7bca7a7757dc3865.gif" class="dice3"></image> 
+</view>
+<view>
+  <image wx:if="{{d==1}}" src="https://ftp.bmp.ovh/imgs/2021/02/6cf5a6c10df61d7c.gif" class="dice4"></image> 
+  <image wx:elif="{{d==2}}" src="https://ftp.bmp.ovh/imgs/2021/02/eec033a94853c439.gif" class="dice4"></image> 
+  <image wx:elif="{{d==3}}" src="https://ftp.bmp.ovh/imgs/2021/02/d25ef570b5e5cd57.gif" class="dice4"></image> 
+  <image wx:elif="{{d==4}}" src="https://ftp.bmp.ovh/imgs/2021/02/e47adf9c3a4490d7.gif" class="dice4"></image> 
+  <image wx:elif="{{d==5}}" src="https://ftp.bmp.ovh/imgs/2021/02/4edcf047be56a99a.gif" class="dice4"></image> 
+  <image wx:elif="{{d==6}}" src="https://ftp.bmp.ovh/imgs/2021/02/7bca7a7757dc3865.gif" class="dice4"></image> 
+</view>
+
+<view>
+  <image wx:if="{{e==1}}" src="https://ftp.bmp.ovh/imgs/2021/02/6cf5a6c10df61d7c.gif" class="dice5"></image> 
+  <image wx:elif="{{e==2}}" src="https://ftp.bmp.ovh/imgs/2021/02/eec033a94853c439.gif" class="dice5"></image> 
+  <image wx:elif="{{e==3}}" src="https://ftp.bmp.ovh/imgs/2021/02/d25ef570b5e5cd57.gif" class="dice5"></image> 
+  <image wx:elif="{{e==4}}" src="https://ftp.bmp.ovh/imgs/2021/02/e47adf9c3a4490d7.gif" class="dice5"></image> 
+  <image wx:elif="{{e==5}}" src="https://ftp.bmp.ovh/imgs/2021/02/4edcf047be56a99a.gif" class="dice5"></image> 
+  <image wx:elif="{{e==6}}" src="https://ftp.bmp.ovh/imgs/2021/02/7bca7a7757dc3865.gif" class="dice5"></image> 
+</view>
+
+<view>
+  <image wx:if="{{f==1}}" src="https://ftp.bmp.ovh/imgs/2021/02/6cf5a6c10df61d7c.gif" class="dice6"></image> 
+  <image wx:elif="{{f==2}}" src="https://ftp.bmp.ovh/imgs/2021/02/eec033a94853c439.gif" class="dice6"></image> 
+  <image wx:elif="{{f==3}}" src="https://ftp.bmp.ovh/imgs/2021/02/d25ef570b5e5cd57.gif" class="dice6"></image> 
+  <image wx:elif="{{f==4}}" src="https://ftp.bmp.ovh/imgs/2021/02/e47adf9c3a4490d7.gif" class="dice6"></image> 
+  <image wx:elif="{{f==5}}" src="https://ftp.bmp.ovh/imgs/2021/02/4edcf047be56a99a.gif" class="dice6"></image> 
+  <image wx:elif="{{f==6}}" src="https://ftp.bmp.ovh/imgs/2021/02/7bca7a7757dc3865.gif" class="dice6"></image> 
+</view>
+
+<view style="position:relative;top:600rpx;background:darkslateblue;color:white;border-radius:15%;width:550rpx ;height:150rpx;left: 90rpx;font-size:0.45cm;font-style:initial;line-height:400%;" >{{cmp1}} 号玩家，您的奖项是：
+   {{result}}!
+</view>
